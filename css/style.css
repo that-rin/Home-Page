@@ -1,0 +1,132 @@
+body{
+  color: #48514E;
+  margin: 0;
+  text-align:center;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+h1 {
+  font-size:5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Calligraffitti', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+  color: #40514E;
+}
+
+hr {
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 150px auto 120px auto;
+}
+
+img {
+  width:600px;
+  height: 300px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Tomorrow', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.into {
+  width: 30%;
+  margin:auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top {
+  position:relative;
+  background-color:#9dd8c8;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BF8F;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  margin:100px auto 100px auto;
+  width: 50%;
+  height: auto;
+  text-align: left;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.top_cloud {
+  position: absolute;
+  right:300px;
+  top:50px;
+  width: 5%;
+  height: auto;
+}
+
+.bottom_cloud {
+  position:absolute;
+  left: 250px;
+  bottom: 70px;
+  width: 5%;
+  height: auto;
+}
+
+.sleeping {
+  margin: auto;
+  width: 15%;
+  height: auto;
+}
+
+.neko-img {
+  float:left;
+  margin: 30px 30px 30px auto;
+  width: 30%;
+  height: auto;
+}
+
+.glasses-img {
+  float:right;
+  margin: 30px auto 60px 30px;
+  width: 30%;
+  height: auto;
+}

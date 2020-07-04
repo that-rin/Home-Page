@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size:5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    line-height: 2;
+    margin: 40px auto;
+    padding: 2px;
+}
+
+hr {
+  border: dotted #eaeaea 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 60px auto 60px auto;
+}
+
+
+.ul {
+    margin: 0 auto 1em auto;
+    padding: 2px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    margin: 4px 0;
+    text-align: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.card {
+    flex: 0 1 calc(25% - 1em);
+    background-color: ff2e63;
+    padding: 5px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.fill {
+  display: flex;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.fill img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.Child-1 header {
+    width: 100%;
+}
+
+.Child-2 main {
+    width: 100%;
+}
+
+.Child-3 section {
+    width: 100%;
+}
+
+
+.Child-4 footer {
+    width: 100%;
+}
+
+
+.Child-1 {
+    grid-area: header;
+    margin: 0;
+}
+
+.Child-2 {
+    grid-area: about;
+    margin: 0;
+}
+
+.Child-3 {
+    grid-area: tech;
+    margin: 0;
+}
+
+.Child-4 {
+    grid-area: projects;
+    margin: 0;
+}
+
+.Child-5 {
+    grid-area: contacts;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 320px) {
+    
+    .ParentGrid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header"
+        "about"
+        "tech"
+        "projects"
+        "contacts";
+    background-color: #252a34;
+}
+
+
+}
+
+@media screen and (min-width: 1025px) {
+    .ParentGrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        ". header ."
+        ". about ."
+        ". tech ."
+        ". projects ."
+        ". contacts .";
+    background-color: #252a34;
+}
+
+
+}
